@@ -4,7 +4,7 @@ This is a full-stack web application designed to help users practice for technic
 
 ### Key Features 🚀
 
-* **AI-Generated Questions**: Utilizes the Gemini API (`gemini-1.5-flash-latest`) to generate a unique and varied set of interview questions on topics like Data Structures, Databases, and OOPs.
+* **AI-Generated Questions**: Utilizes the Gemini API (`gemini-1.5-flash-latest`) and also (`gemini-2.5-flash-latest`) to generate a unique and varied set of interview questions on topics like Data Structures, Databases, and OOPs.
 * **Text-to-Speech (TTS)**: Reads questions aloud using Coqui's high-quality `xtts_v2` model, with multiple voice options for the user to choose from.
 * **Speech-to-Text (STT)**: Transcribes the user's spoken answers in real-time using the `faster-whisper` model.
 * **Session-Based Flow**: Supports multi-question interview sessions where users can answer, re-record if unsatisfied, and continue until they choose to end the session.
@@ -41,8 +41,8 @@ Follow these steps to set up and run the project locally.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/kanishksamuraig/Interview_Bot.git
+cd Interview_Bot
 ```
 
 ### 2. Backend Setup (FastAPI)
