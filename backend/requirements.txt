@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+google-generativeai
+coqui_tts
+coqui-tts
+faster-whisper
+torch
+torchaudio
